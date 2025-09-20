@@ -1,5 +1,5 @@
-function findMaxChar(str) {
-    let charCount = {};
+function findMaxChar(str: string) {
+    let charCount: { [key: string]: number } = {};
     let max = 0;
     let maxChar = '';
 
